@@ -22,4 +22,8 @@ public class Proyect {
     public void setTasks(Task[] tasks) {
         this.tasks = tasks;
     }
+
+    public String toString() {
+        return proyectName;
+    }
 }
